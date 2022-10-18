@@ -9,7 +9,7 @@
     "hook-errors": "echo '\\x1b[31mThe build failed because a Forge UI hook is being used incorrectly. Forge UI hooks follow the same rules as React Hooks but have their own API definitions. See the Forge documentation for details on how to use Forge UI hooks.\n' && exit 1"
   },
   "dependencies": {
-    "@atlaskit/icon": "^21.10.3",
+    "@atlaskit/icon": "^21.11.0",
     "@forge/api": "^2.6.0",
     "@forge/resolver": "^1.4.2",
     "@forge/ui": "^0.13.1",
