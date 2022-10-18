@@ -61,7 +61,7 @@ resources:
   - key: modal-resource
     path: static/custom-modal/build
 app:
-  id: ari:cloud:ecosystem::app/26d23973-de14-4cc9-a32a-8846e0f6fbac
+  id: ari:cloud:ecosystem::app/9c174b95-6e8f-4e9f-a150-e86fc791e143
 permissions:
   scopes:
     - write:jira-work
