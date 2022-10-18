@@ -141,8 +141,8 @@ function App() {
 
     const submitData = (): any => {
 
-        if (data == {})
-            return null;
+        // if (data == {})
+        //    return null;
 
         data.userID = context.accountId;
 
