@@ -1,0 +1,216 @@
+{
+  "social": [
+    {
+      "key": "Sense of community",
+      "text": "Sense of community means the feeling of belong to an organization, to an area or to a\ngroup of like-minded people.",
+      "question": [
+        "How can the product or service affect a person’s sense of belonging to these\ngroups?"
+      ]
+    },
+    {
+      "key": "Trust",
+      "text": "Trust means having a firm belief in the reliability, truth, or ability of someone or\nsomething.",
+      "question": [
+        "How can the product or service change the trust between the users and the business\nthat owns the system?"
+      ]
+    },
+    {
+      "key": "Inclusiveness and diversity",
+      "text": "Inclusiveness and diversity refers to the inclusion of people who might otherwise be\nexcluded or marginalized.",
+      "question": [
+        "How can the product or service impact on how people perceive others?",
+        "What effects can it have on users with different backgrounds, age groups,\neducation levels, or other differences?"
+      ]
+    },
+    {
+      "key": "Equity",
+      "text": "Equity means the quality of being fair and impartial.",
+      "question": [
+        "How can the system make people to be treated differently from each other? (think data analytics or decision support)"
+      ]
+    },
+    {
+      "key": "Participation and communication",
+      "text": "Participation and communication refers to imparting or interchanging thoughts, opinions\nor information by speech, writing, or signs.",
+      "question": [
+        "How can the product or service change the way people: create networks? participate in group work? support, criticize or argue with others?"
+      ]
+    }
+  ],
+  "individual": [
+    {
+      "key": "Health",
+      "text": "Health means the state of a person's mental or physical condition.",
+      "question": [
+        "How can the product or service improve or worsen a person’s physical, mental,\nand/or emotional health?\n(For example, can it make a person feel anything good or bad - e.g.\n(under)valued, (dis)respected, (in)dependent, or coerced?)"
+      ]
+    },
+    {
+      "key": "Lifelong learning",
+      "text": "Lifelong learning means the use of learning opportunities throughout people's lives for\ncontinuous development.",
+      "question": [
+        "How can the product or service affect people’s competencies?"
+      ]
+    },
+    {
+      "key": "Privacy",
+      "text": "Privacy means being free from intrusion or disturbance in one's private life.",
+      "question": [
+        "How can the product or service expose (or help to hide) a person’s identity,\nwhereabouts or relations?"
+      ]
+    },
+    {
+      "key": "Safety",
+      "text": "Safety means being protected from danger, risk, or injury.",
+      "question": [
+        "How can the product or service expose (or protect) a person from physical harm?",
+        "How can it make a person feel more (or less) exposed to harm?",
+        "What if used in an unintended way?"
+      ]
+    },
+    {
+      "key": "Agency",
+      "text": "Agency means the capacity of an individual to act or make decisions of their free will.",
+      "question": [
+        "How can the product or service empower (or prevent) a person from taking an action/ decision when necessary?",
+        "Can those affected by the product or service understand its implications, express\nconcerns or be represented by someone?"
+      ]
+    }
+  ],
+  "ecological": [
+    {
+      "key": "Material and resources",
+      "text": "Material and resources includes everything that is needed to produce, deploy, operate,\nand cease a product or service.",
+      "question": [
+        "How are materials consumed to produce the product or service?",
+        "What about to operate the product or service? E.g., requires hardware.",
+        "How can it change the way people consume material? E.g., encourage to buy more?"
+      ]
+    },
+    {
+      "key": "Waste and pollution",
+      "text": "Waste & pollution means effects the product or service might have on soil, atmospheric, and water pollution.",
+      "question": [
+        "How can producing parts or supplies generate waste or emissions?",
+        "How can the use itself produce waste or emissions?",
+        "How can it influence how much waste or emissions are generated?",
+        "How can it promote (or impair) recycling?"
+      ]
+    },
+    {
+      "key": "Biodiversity",
+      "text": "Biodiversity includes the effects of a product or service on biodiversity in its operational environment and other affected land.",
+      "question": [
+        "How can it impact the plants or animals around it? Or elsewhere?",
+        "How can it change composition of the soil around it? E.g., occupying / cropland?",
+        "What about elsewhere?"
+      ]
+    },
+    {
+      "key": "Logistics",
+      "text": "Logistics means the effects of the product or service on moving people and/or goods.",
+      "question": [
+        "How can it affect the need (and distance) for moving people or goods?",
+        "How can it affect the means by which people or goods move?"
+      ]
+    },
+    {
+      "key": "Energy",
+      "text": "Energy means all energy use that results from producing and using a product or service.",
+      "question": [
+        "How can the product of service affect the need for production of energy?",
+        "What about the use of energy? E.g. encourages less energy.",
+        "Does the hardware run on renewable energy? Is there a way to incentivise that?"
+      ]
+    }
+  ],
+  "economical": [
+    {
+      "key": "Value",
+      "text": "Value means the worth, or usefulness of something, principles or standards; judgement\nof what is important in life.",
+      "question": [
+        "How can the product or service create or destroy monetary value? For whom?",
+        "Are there any other related types of business value? For whom?"
+      ]
+    },
+    {
+      "key": "Customer Relationship Management",
+      "text": "Customer Relationship Management steers a company's interaction with current and\npotential customers to improve business relationships (e.g. retention, growth).",
+      "question": [
+        "How can the product or service affect the relationship between the business and its customers?",
+        "How can it enable co-creation or co-destruction of value?",
+        "How can it impact the financial situation of their customers & others?"
+      ]
+    },
+    {
+      "key": "Supply Chain",
+      "text": "Supply Chain means a system of organizations, people, activities, information, and\nresources involved in moving a product or service from supplier to customer.",
+      "question": [
+        "How can the product or service affect the supply chain of the business who owns it?",
+        "How can these changes in supply chain impact the financial situation?",
+        "How can it impact the financial situation of their customers & others?"
+      ]
+    },
+    {
+      "key": "Governance",
+      "text": "Governance means the processes of interaction and decision-making among the actors\ninvolved in a system through the laws, norms, power or language of an organized society.",
+      "question": [
+        "How can the product or service affect how and by whom such decisions are made?",
+        "How can the product or service affect the communication channels by which the relationships takes place?",
+        "How can these changes impact the financial situation of the business and partners?"
+      ]
+    },
+    {
+      "key": "Innovation",
+      "text": "Innovation refers to something new or to a change made to an existing product, idea, or\nfield.",
+      "question": [
+        "Do (parts of) the product or service affect the investment on research & development?",
+        "How can changes in innovation and R&D impact the financial situation?",
+        "Can it also impact the financial situation of their customers & others?"
+      ]
+    }
+  ],
+  "technical": [
+    {
+      "key": "Maintainability",
+      "text": "Maintainability means the degree to which an application is understood, repaired, or\nenhanced.",
+      "question": [
+        "How are the operating system and runtime environment expected to change what does that required from maintainers of this system?",
+        "How can the correctness of the system be affected by other systems or affect the correctness of others?"
+      ]
+    },
+    {
+      "key": "Usability",
+      "text": "Usability means the ability of users to productively use the system for the intended\npurpose.",
+      "question": [
+        "What kind of knowledge or physical properties are required to use the system and how can this affect different types of users? For example, is goodeyesight and small, sensitive hands required to operate a system on a small handheld device?"
+      ]
+    },
+    {
+      "key": "Adaptability",
+      "text": "Adaptability means the ability of a system to adapt itself to fit its behaviour\naccording to changes in its environment or in parts of the system itself.",
+      "question": [
+        "How could someone want to use the system in another context?",
+        "What can make that easier/more difficult?",
+        "What can make that easier/more difficult for the system to adapt itself to fit new usage scenarios?"
+      ]
+    },
+    {
+      "key": "Security",
+      "text": "Security means freedom from, or resilience against, potential harm (or other unwanted\ncoercive change) caused by external or internal attacks.",
+      "question": [
+        "Which assets controlled by this system would be desirable to an attacker? financial information, people’s whereabouts or preferences, etc.",
+        "What are the risks associated with these assets?",
+        "What are other likely vulnerabilities of the system?"
+      ]
+    },
+    {
+      "key": "Scalability",
+      "text": "Scalability means the systems ability to handle growing amounts of work in a graceful\nmanner or to be enlarged horizontally or vertically and will continue to function with\ncomparable response times.",
+      "question": [
+        "How can the system support changes in workload?",
+        "What can make that easier/more difficult?"
+      ]
+    }
+  ]
+}

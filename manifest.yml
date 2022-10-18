@@ -1,0 +1,80 @@
+modules:
+  jira:projectPage:
+    - key: sustainability-overview-custom
+      resolver:
+        function: pageResolver
+      title: Sustainability Assessment
+      pages:
+        - title: Overview
+          route: /overview-page
+        - title: Open for Assessment
+          route: /assessment-page
+        - title: Guidance Questions
+          route: /question-page
+      resource: page-resource
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  jira:customField:
+    - key: sustainability-custom-field-objectType
+      name: Sustainability-Assessment
+      description: Assess Sustainability in five dimensions
+      type: object
+      function: viewField
+      displayConditions:
+        issueType:
+          - Story
+          - Epic
+      edit:
+        resource: modal-resource
+      formatter:
+        expression: ""
+      schema:
+        properties:
+          text:
+            type: string
+            searchAlias: Text
+          ecological:
+            type: number
+            searchAlias: Ecological
+          economical:
+            type: number
+            searchAlias: Economical
+          technical:
+            type: number
+            searchAlias: Technical
+          social:
+            type: number
+            searchAlias: Social
+          individual:
+            type: number
+            searchAlias: Individual
+          userID:
+            type: string
+            searchAlias: UserID
+  function:
+    - key: viewField
+      handler: custom-field-objectType.renderFieldView
+    - key: pageResolver
+      handler: custom-project-page.handler
+resources:
+  - key: page-resource
+    path: static/custom-project-page/build
+  - key: modal-resource
+    path: static/custom-modal/build
+app:
+  id: ari:cloud:ecosystem::app/26d23973-de14-4cc9-a32a-8846e0f6fbac
+permissions:
+  scopes:
+    - write:jira-work
+    - read:jira-work
+    - storage:app
+    - read:sprint:jira-software
+    - read:board-scope:jira-software
+    - read:issue-details:jira
+    - read:jql:jira
+  content:
+    styles:
+      - 'unsafe-inline'
+  external:
+    images:
+      - 'https://i1.wp.com'
+      - '*.atlassian.net'
