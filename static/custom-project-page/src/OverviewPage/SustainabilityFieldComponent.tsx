@@ -49,7 +49,7 @@ const SustainabilityFieldComponent = ({issues, fieldID}: Props) => {
             case 0:
                 return (
                     <Tooltip content={"no impact"}>
-                        <MediaServicesPreselectedIcon primaryColor={Y200} label="">-</MediaServicesPreselectedIcon>
+                        <MediaServicesPreselectedIcon primaryColor={Y200} label="" />
                     </Tooltip>
                 );
             case 1:
